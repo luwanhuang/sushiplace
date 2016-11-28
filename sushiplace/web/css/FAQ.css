@@ -1,0 +1,99 @@
+#menu {
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	width: 260px;
+	height: 350px;
+	color: #FFFFFF;
+}
+
+#list {
+	line-height: 200%;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+
+strong {
+	font-size: 20px;
+}
+
+#menu li a {
+	background-color: rgb(250,156,1);
+	color: #FFFFFF;
+	padding: 10px 20px;
+	width: 200px;
+	display: block;
+	cursor: pointer;
+	border: 1px solid #FFFFFF;
+}
+
+#menu li a:hover {
+	color: #FFFFFF;
+	background-color: #00C8F8;
+}
+
+#search {
+	width: 167px;
+	height: 25px;
+	border: 1px solid #1464F6;
+}
+
+#button2 {
+	width: 72px;
+	height: 29px;
+	border: 1px solid #1464F6;
+	cursor: pointer;
+	position: absolute;
+	left: 170px;
+}
+
+#FAQ {
+	position: absolute;
+	top: 60px;
+	left: 360px;
+	width: 680px;
+	height: 505px;
+	overflow: auto;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#FAQ h3 {
+	color: #FFFFFF;
+	cursor: pointer;
+	background-color: rgb(250,156,1);
+	padding: 7px;
+	border: 1px solid #CCCCCC;
+	margin: 0;
+	border-radius: 5px 5px 5px 5px;
+	font-size: 18px;
+}
+
+#FAQ div {
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+}
+
+.div_show {
+	display: block;
+	padding: 0;
+	margin: 0;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.div_hide {
+	display: none;
+	padding: 0;
+	margin: 0;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#FAQ h4 {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+#FAQ p {
+	padding: 5px;
+}

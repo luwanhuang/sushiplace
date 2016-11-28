@@ -1,0 +1,261 @@
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, samp, small, strike, strong, sub, sup, tt, var,
+	b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+ * The main style of this site.
+ */
+body {
+	font-family: "Trebuchet MS";
+	width: 1240px;
+	height: 850px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: rgb(243,152,1);
+	width: 1240px;
+	height: 135px;
+	color: #FFFFFF;
+	font-size: 20px;
+	position: relative;
+	top: 0px;
+	z-index: 2;
+}
+
+header img {
+	border: none;
+}
+
+footer img {
+	border: none;
+}
+
+header h1 {
+	font-size: 32px;
+	line-height: 120%;
+}
+
+footer {
+	background-color: rgb(243,152,1);
+	width: 1240px;
+	height: 80px;
+	position: relative;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+}
+
+header #logo {
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	width: 200px;
+	height: 130px;
+}
+
+header #title {
+	position: absolute;
+	top: 30px;
+	left: 260px;
+	width: 300px;
+	height: 130px;
+}
+
+header #orderButton {
+	position: absolute;
+	top: 25px;
+	left: 650px;
+	width: 130px;
+	height: 60px;
+}
+
+header nav {
+	position: absolute;
+	top: 100px;
+	left: 600px;
+	width: 640px;
+	height: 60px;
+}
+
+header #phoneInfo {
+	position: absolute;
+	top: 35px;
+	left: 820px;
+	width: 250px;
+	height: 30px;
+}
+header #pInfo {
+	position: absolute;
+	top: 12px;
+	left: 1070px;
+	width: 110px;
+	height: 33px;
+}
+.button {
+	font-family: "Trebuchet MS";
+	color: #FFFFFF;
+	background-color: rgb(250,156,1);
+	font-size: 18px;
+}
+
+header #button1 {
+	height: 50px;
+	width: 130px;
+	font-size: 22px;
+}
+
+ul {
+	list-style: none;
+}
+
+nav ul {
+	padding: 0;
+}
+
+#topNav li {
+	display: inline;
+}
+
+nav li a {
+	background-color: #FFFFFF;
+	color: rgb(250,156,1);
+	padding: 5px;
+	width: 90px;
+	display: inline-block;
+	text-align: center;
+}
+
+nav li a:hover {
+	background-color: #C9F1FD;
+}
+
+.activated {
+	background-color: #C9F1FD;
+}
+
+#content {
+	width: 1050px;
+	height: 635px;
+	position: relative;
+	margin: 0 auto;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	font-size: 14px;
+	line-height: 150%;
+	z-index: 1;
+}
+
+footer #logoMini {
+	position: absolute;
+	top: 8px;
+	left: 565px;
+	width: 100px;
+	height: 70px;
+}
+
+footer #contact {
+	position: absolute;
+	top: 10px;
+	left: 180px;
+	width: 300px;
+	height: 65px;
+	line-height: 200%;
+}
+
+footer #copyright {
+	position: absolute;
+	top: 10px;
+	left: 780px;
+	width: 400px;
+	height: 65px;
+	line-height: 200%;
+}
+
+#hideNav1 {
+	display: none;
+	position: absolute;
+	top: 30px;
+	left: 316px;
+	width: 145px;
+	height: 70px;
+}
+
+#hideNav2 {
+	display: none;
+	position: absolute;
+	top: 30px;
+	left: 528px;
+	width: 145px;
+	height: 70px;
+}
+
+.hideNav li a {
+	background-color: #FFFFFF;
+	color: rgb(250,156,1);
+	padding: 5px;
+	width: 90px;
+	display: inline-block;
+	text-align: center;
+	border: 2px solid rgb(250,156,1);
+}
+
+.hideNav li a:hover {
+	background-color: #C9F1FD;
+	color: #1464F6;
+}
+
+#halfTitle {
+	position: absolute;
+	top: 40px;
+	left: 63px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	margin: 20px auto;
+}
+h4 {
+	font-family: "Trebuchet MS";
+	color:rgb(250,156,1) ;
+	background-color: #FFFFFF;
+	font-size: 18px;
+}

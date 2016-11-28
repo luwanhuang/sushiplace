@@ -1,0 +1,65 @@
+#staffDetail {
+	width: 750px;
+	height: 500px;
+	overflow: auto;
+	position: absolute;
+	top: 60px;
+	left: 300px;
+	border: 1px solid #DDDDDD;
+}
+
+#staffDetail p {
+	padding: 10px;
+}
+
+#content h3 {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+#content img {
+	width: 150px;
+	height: 180px;
+}
+
+#content table div {
+	width: 510px;
+	height: 179px;
+	border: 1px solid #DDDDDD;
+	overflow: auto;
+	position: absolute;
+	top: 15px;
+}
+
+#content table td {
+	padding: 15px;
+}
+
+#content table, #content table tr, #content table td {
+	position: relative;
+}
+
+#nameBar {
+	width: 220px;
+	height: 500px;
+	position: absolute;
+	top: 60px;
+	background-color: rgb(250,156,1);
+	color: #FFFFFF;
+}
+
+#extraInfo {
+	text-align: center;
+}
+
+#nameBar a:link, #nameBar a:visited, #nameBar a:hover {
+	color: #FFFFFF;
+	padding: 10px;
+}
+
+#nameBar ul {
+	margin: 10px;
+	line-height: 260%;
+}

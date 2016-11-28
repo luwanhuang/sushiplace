@@ -1,0 +1,52 @@
+#comments_images {
+	float: left;
+	width: 170px;
+	margin-right: 20px;
+}
+
+#comments_images img {
+	width: 150px;
+	height: 130px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.detailed_comments {
+	width: 635px;
+	height: 130px;
+	overflow: auto;
+	border: 1px solid #DDDDDD;
+}
+
+#comments {
+	width: 850px;
+	height: 500px;
+	overflow: auto;
+	position: absolute;
+	top: 60px;
+	left: 100px;
+	border: 1px solid #DDDDDD;
+}
+
+#comments_ul img {
+	width: 150px;
+	height: 130px;
+}
+
+#comments_ul li {
+	margin: 10px auto 24px auto;
+}
+
+#comments_ul p {
+	padding: 10px;
+}
+
+#comments_ul strong {
+	font-weight: bold;
+}
+
+#comments_ul {
+	position: absolute;
+	top: 60px;
+	left: 180px;
+}
